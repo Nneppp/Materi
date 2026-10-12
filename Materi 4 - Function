@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int input;
+float y;
+
+void fungsi_x (int x) {
+
+    y = (float)( x * x * x * x + 3 * x * x * x + 2 * x + 1 )/5;
+}
+
+
+void main() {
+
+    printf("masukkan nilai x : ");
+    scanf("%d", &input);
+    fungsi_x(input);
+    printf("nilai input %d adalah %.2f\n", input, y);
+
+    printf("\nmasukkan nilai x : ");
+    scanf("%d", &input);
+    fungsi_x(input);
+    printf("nilai input %d adalah %.2f\n", input, y);
+
+    printf("\nmasukkan nilai x : ");
+    scanf("%d", &input);
+    fungsi_x(input);
+    printf("nilai input %d adalah %.2f\n", input, y);
+
+}
+
+
+
+
+
+    
+
+
