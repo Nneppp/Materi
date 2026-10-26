@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+float nilai;
+
+void main() {
+
+            printf("masukan nilai: ");
+            scanf("%f", &nilai);
+            
+            if (nilai >= 2.75 && nilai <= 3.26) {
+                printf("warna dari energi foton (EV): %.2f adalah ungu", nilai);
+            }
+            else if (nilai >= 2.5 && nilai <= 2.75) {
+                printf("warna dari energi foton (EV): %.2f adalah biru", nilai);
+            } 
+            else if (nilai >= 2.17 && nilai <= 2.25){
+                printf("warna dari energi foton (EV): %.2f adalah hijau", nilai);
+            }
+            else if (nilai >= 2.10 && nilai <= 2.17){
+                printf("warna dari energi foton (EV): %.2f adalah kuning", nilai);
+            }
+            else if (nilai >= 2.00 && nilai <= 2.10){
+                printf("warna dari energi foton (EV): %.2f adalah jingga", nilai);
+            }
+            else if (nilai >= 1.62 && nilai <= 2.00){
+                printf("warna dari energi foton (EV): %.2f adalah merah", nilai);
+            }
+            else if (nilai <= 1.62){
+                printf("warna dari energi foton (EV): %.2f tidak terdefinisi", nilai);
+            }
+        }
