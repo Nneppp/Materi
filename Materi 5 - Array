@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+int a[5] = {20,23, 21, 34, 100}; // int a, b, c, d, e...  bbisa di ganti dengan array a[5] = {20, 23, 21, 34, 100};
+int s[100];
+
+// contoh
+int i, x[5];
+
+float data[3];
+
+void main() {
+
+    /* 
+    
+    printf("Masukkan data 1 : ");
+    scanf("%d", &s[0]);
+
+    printf("Masukkan data 2 : ");
+    scanf("%d", &s[1]);
+
+    s[2] = s[0] + s[1];
+
+    printf("Hasil penjumlahan data 1 (%d) dan data 2 (%d) adalah : %d\n\n", s[0], s[1], s[2]);
+
+    printf("data ke-0 = %d\n", a[0]);
+    printf("data ke-1 = %d\n", a[1]);
+    printf("data ke-2 = %d\n", a[2]);
+    printf("data ke-3 = %d\n", a[3]);
+    printf("data ke-4 = %d\n", a[4]);
+
+    printf("\nMasukkan data float 1 : ");
+    scanf("%f", &data[0]);
+
+    printf("Masukkan data float 2 : ");
+    scanf("%f", &data[1]);
+
+    printf("Masukkan data float 3 : ");
+    scanf("%f", &data[2]);
+
+    data[3] = data[0] * data[1] / data[2];
+
+    printf("Hasil perkalian data 1 (%.2f) dan data 2 (%.2f) dibagi data 3 (%.2f) adalah : %.2f\n\n", data[0], data[1], data[2], data[3]); 
+    
+    */
+
+    // contoh 
+    for(i = 0; i < 5; i++) {
+        printf("masukkan data ke-%d = ", i);
+        scanf("%d", &x[i]);
+    }
+    for(i = 0; i < 3; i++) {
+        printf("data ke-%d = %d\n", i, x[i]);
+    }
+
+}
